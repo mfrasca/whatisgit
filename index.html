@@ -93,7 +93,7 @@
     </div>
 
     <div id="stupid" class="step" data-x="0" data-y="0" data-rotate="90" data-scale="2">
-        <q>"Should I hacked together a stupid content tracker during my weekend so I can stop using this CVS/SVN shit?!?"</q><br />
+        <q>"Should I hack together a stupid content tracker during my weekend so I can stop using this CVS/SVN shit?!?"</q><br />
         <span class="footnote">or so thought Linus, and over a few months ...</span>
     </div>
 
@@ -146,8 +146,8 @@
     <div id="integrity" class="step slide" data-x="8000" data-y="0" data-z="-10000" data-rotate-x="10" data-rotate-y="-30" data-scale="1">
         <q>authentication of history</q>
         <ul>
-            <li>each commit hash identify the snapshot content and the full associated history (more details comming)</li>
-            <li>each tag is an immutable pointer to a commit hashes</li>
+            <li>each commit hash identifies the snapshot content and the full associated history (more details coming)</li>
+            <li>each tag is an immutable pointer to a commit hash</li>
             <li>tags can be cryptographically signed with GPG</li>
         </ul>
     </div>
@@ -186,7 +186,7 @@
 
     <div id="getstarted" class="step slide" data-x="-2400" data-y="-500" data-rotate="45" data-scale="2">
         <h1>getting started</h1>
-        <pre># git let you choose your display name
+        <pre># git lets you choose your display name
 $ git config --global user.name "Your Name"
 $ git config --global user.email you@yourdomain
 
@@ -245,9 +245,9 @@ $ git checkout -- oldstuff.py
 # checkout subdir from old version, overwriting working copy
 git checkout v3.25.1 -- path/to/dir
 
-# i committed and pushed something is just broken :(,
+# i committed and pushed something, it's just broken :(,
 # this makes an extra commit that is
-# the negatation the changes in badcommit.
+# the negatation of the changes in badcommit.
 $ git revert badcommit
 </pre>
     </div>
@@ -283,7 +283,7 @@ $ git grep XXX v3.25
     </div>
 
     <div id="jobdone" class="step slide" data-x="-1400" data-y="5000" data-rotate="-90" data-scale="1">
-        <h1>git is flexible, and get the job done</h1>
+        <h1>git is flexible, and gets the job done</h1>
         <pre># forgot to commit a new file, but local changes not pushed yet
 $ git add forgotten.py
 $ git commit --amend
